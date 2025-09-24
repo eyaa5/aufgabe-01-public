@@ -2,12 +2,16 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Aufgabe 1 – HTML5 Semantischer Aufbau (Public)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aufgabe 1 – HTML5 Semantischer Aufbau</title>
 </head>
 <body>
-  
+  <!-- Public version: keine persönlichen Daten -->
 
-  <header>
+  <!-- Barrierefreiheit: Skip-Link (ohne CSS sichtbar, aber okay) -->
+  <a href="#inhalt">Zum Inhalt springen</a>
+
+  <header id="top">
     <h1>Aufgabe 1</h1>
     <p>Nur Struktur mit HTML5. Kein CSS.</p>
   </header>
@@ -22,29 +26,38 @@
       </ul>
     </nav>
 
-    <h2>Inhalt</h2>
+    <h2 id="inhalt">Inhalt</h2>
 
     <article id="artikel1">
       <h3>Artikel 1</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas corrupti asperiores commodi officia odit asperiores quo laudantium itaque possimus ipsum quia ipsa minus, adipisci ex fuga enim recusandae veritatis.</p>
-      <footer><time datetime="2020-04-29">29.04.2020</time>, <a href="https://loremipsum.de/">https://loremipsum.de/</a></footer>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a>
+      </footer>
     </article>
 
     <article id="artikel2">
       <h3>Artikel 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem voluptate ut incidunt voluptatem nulla natus veritatis totam consequatur nesciunt blanditiis nobis autem perspiciatis consectetur eius explicabo alias laudantium distinctio.</p>
-      <footer><time datetime="2020-04-29">29.04.2020</time>, <a href="https://loremipsum.de/">https://loremipsum.de/</a></footer>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a>
+      </footer>
     </article>
 
     <article id="artikel3">
       <h3>Artikel 3</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus quos eveniet sit facere quam dicta laborum fuga error reprehenderit architecto blanditiis reiciendis hic obcaecati temporibus ipsa repudiandae laboriosam.</p>
-      <footer><time datetime="2020-04-29">29.04.2020</time>, <a href="https://loremipsum.de/">https://loremipsum.de/</a> — Hochschule Merseburg</footer>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a> — Hochschule Merseburg
+      </footer>
     </article>
   </main>
 
   <footer>
-    <p>© 2025 — Public Demo (ohne Styles)</p>
+    <p>© 2025 — Public Demo (ohne Styles) · <a href="#top">Nach oben</a></p>
   </footer>
 </body>
 </html>
