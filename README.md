@@ -1,6 +1,6 @@
 # Aufgabe 1 – HTML5 Semantischer Aufbau (ohne CSS)
 
-**Live-Demo:** (wird nach GitHub Pages hier verlinkt)
+**Live-Demo:** https://eyaa5.github.io/aufgabe-01-public/
 
 ## Ziel
 Reine HTML5-Semantik: `header`, `nav`, `main`, `article`, `footer` (ohne CSS/SCSS).

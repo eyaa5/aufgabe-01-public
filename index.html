@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aufgabe 1 – HTML5 Semantischer Aufbau</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Aufgabe 1 – HTML5 Semantischer Aufbau</title>
 </head>
 <body>
   <!-- Public version: keine persönlichen Daten -->
 
   <!-- Barrierefreiheit: Skip-Link (ohne CSS sichtbar, aber okay) -->
   <a href="#inhalt">Zum Inhalt springen</a>
+  <!-- Public version: keine persönlichen Daten -->
 
+  <!-- Barrierefreiheit: Skip-Link (ohne CSS sichtbar, aber okay) -->
+  <a href="#inhalt">Zum Inhalt springen</a>
+
+  <header id="top">
   <header id="top">
     <h1>Aufgabe 1</h1>
     <p>Nur Struktur mit HTML5. Kein CSS.</p>
@@ -27,10 +35,15 @@
     </nav>
 
     <h2 id="inhalt">Inhalt</h2>
+    <h2 id="inhalt">Inhalt</h2>
 
     <article id="artikel1">
       <h3>Artikel 1</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptas corrupti asperiores commodi officia odit asperiores quo laudantium itaque possimus ipsum quia ipsa minus, adipisci ex fuga enim recusandae veritatis.</p>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a>
+      </footer>
       <footer>
         <time datetime="2020-04-29">29.04.2020</time>,
         <a href="https://loremipsum.de/">https://loremipsum.de/</a>
@@ -44,6 +57,10 @@
         <time datetime="2020-04-29">29.04.2020</time>,
         <a href="https://loremipsum.de/">https://loremipsum.de/</a>
       </footer>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a>
+      </footer>
     </article>
 
     <article id="artikel3">
@@ -53,10 +70,15 @@
         <time datetime="2020-04-29">29.04.2020</time>,
         <a href="https://loremipsum.de/">https://loremipsum.de/</a> — Hochschule Merseburg
       </footer>
+      <footer>
+        <time datetime="2020-04-29">29.04.2020</time>,
+        <a href="https://loremipsum.de/">https://loremipsum.de/</a> — Hochschule Merseburg
+      </footer>
     </article>
   </main>
 
   <footer>
+    <p>© 2025 — Public Demo (ohne Styles) · <a href="#top">Nach oben</a></p>
     <p>© 2025 — Public Demo (ohne Styles) · <a href="#top">Nach oben</a></p>
   </footer>
 </body>
